@@ -25,13 +25,14 @@
 # 📖 Awesome books Project  <a name="about-project"></a>
 
 
-**Awesome books Project** is about creating a library of books. where a user can add a book title and author or delete it.
+**Awesome books Project** is about creating a library of books. where a user can add a book title and author or delete it. This project is created with modules.
 
 ## 🛠 Built With <a name="built-with"></a>
 - HTML
 - CSS
 - JS
 - Linter Checks
+- Luxon
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -1,5 +1,6 @@
 import * as bookz from './modules/Books.js';
 import Books from './modules/Books.js';
+import time from './modules/luxons.js';
 
 const form = document.querySelector('#postBook');
 const dates = document.querySelector('#date');
@@ -33,6 +34,7 @@ bookz.addNew.addEventListener('click', () => {
 bookz.contact.addEventListener('click', () => {
   bigBook.showContact();
 });
-dates.innerHTML = Date();
+
+dates.innerHTML = time();
 
 window.addEventListener('load', bigBook.displayBooks());
