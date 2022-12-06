@@ -51,7 +51,7 @@
 
 > Our live demo can be found on
 
-- [Live Demo Link](https://leehaney254.github.io/AwsomeBooks/)
+- [Live Demo Link](https://leehaney254.github.io/modules/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
