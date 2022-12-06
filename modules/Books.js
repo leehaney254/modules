@@ -14,7 +14,7 @@ class Books {
     this.author = author;
   }
 
-  storeData() {
+  storeData = () => {
     const bookTitle = title.value;
     const bookAuthor = author.value;
     const book = new Books(bookTitle, bookAuthor);
@@ -35,7 +35,7 @@ class Books {
     this.displayBooks();
   }
 
-  displayBooks() {
+  displayBooks = () => {
     const wrapper = document.createElement('div');
     const head = document.createElement('h1');
     const line = document.createElement('hr');
@@ -79,7 +79,7 @@ class Books {
     displayArea.appendChild(line);
   }
 
-  removeBook(index) {
+  removeBook = (index) => {
     const bookShelfstr = localStorage.getItem('books');
     const tits = document.createElement('div');
     tits.innerText = this.author;
@@ -90,7 +90,7 @@ class Books {
     this.displayBooks();
   }
 
-  showNew() {
+  showNew = () => {
     list.classList.remove('linkcol');
     contact.classList.remove('linkcol');
     addNew.classList.add('linkcol');
@@ -105,7 +105,7 @@ class Books {
     contactInfo.classList.remove('appear');
   }
 
-  showContact() {
+  showContact = () => {
     list.classList.remove('linkcol');
     addNew.classList.remove('linkcol');
     contact.classList.add('linkcol');
@@ -120,7 +120,7 @@ class Books {
     addBook.classList.remove('appear');
   }
 
-  showList() {
+  showList = () => {
     addNew.classList.remove('linkcol');
     contact.classList.remove('linkcol');
     list.classList.add('linkcol');
